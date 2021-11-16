@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+img {
+    display: inline-block;
+}
+
+header, section, footer {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: rgba(78,191,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,191,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,191,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 62px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wrapper-header {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.title-head {
+    padding-top: 125px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 50%;
+}
+
+.title-head p {
+    max-width: 400px;
+    line-height: 1.75em;
+    margin: 25px 0 35px 0;
+}
+
+h1 {
+    font-size: 37px;
+    color: white;
+    line-height: 1.3em;
+}
+
+h1 span {
+    color: white;
+    font-size: 59px; 
+    line-height: 1.3em;
+}
+
+.desktop {
+    padding-top: 20px;
+    width: 50%;
+}
+
+.trip {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 27px;
+    background: #ffd429;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background: #f1c826;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.skills {
+    padding-top: 100px;
+    padding-bottom: 117px;
+}
+
+h2 {    
+    font-size: 30px;
+    text-align: center;
+}
+
+.skills div h2 {
+    line-height: 0.8em;
+    margin-bottom: 73px;
+}
+
+h3 {
+    margin: 15px 0;
+    font-size: 19px;
+}
+
+.skill-box img {
+    margin-bottom: 10px;
+}
+
+.skill-box {
+    text-align: center;
+}
+
+.skill-box p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5em;
+}
+
+.billet {
+    padding: 100px 0;
+    background: #ecf3f8;
+    
+}
+
+.billet div h2 {
+    margin-bottom: 58px;
+}
+
+.form {
+    width: 344px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.input {
+    width: 100%;
+    padding: 15px 28px;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: rgba(32, 27, 45, .5);
+    border: 1px solid rgba(32, 27, 45, .25);
+    border-radius: 3px;
+}
+
+input::-moz-placeholder { color: rgba(32, 27, 45, .5);}
+input::-webkit-input-placeholder { color: rgba(32, 27, 45, .5); }
+
+.form > button {
+    width: 100%;
+    border: 0;
+}
+
+footer {
+    padding: 60px 0;
+    background: #164d7a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;    
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .wrapper-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wrapper-header > div {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .title-head {
+        padding: 80px 0 40px;
+    }
+
+    .title-head p {
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 30px 0 40px;
+    }
+
+    .desktop {
+        text-align: center;
+    }
+
+    .skill-box {
+        padding: 0 8px;
+    }
+    
+}
+
+@media screen and (max-width: 1081px) {
+    .skills > div > div.wrapper {
+        justify-content: center;
+    }
+
+    .skill-box {
+        padding-bottom: 20px;
+    }
+
+    .wrapper > div:last-child {
+        padding-bottom: 0;
+    }   
+
+}
+
+@media screen and (max-width: 430px) {
+    .form {
+        width: 100%;
+    }
+}

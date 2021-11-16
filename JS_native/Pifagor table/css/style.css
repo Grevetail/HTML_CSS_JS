@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    border: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background: white;
+}
+
+.pifagor > table {
+    width: auto;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    background: gray;
+    color: white;
+}
+
+td, tr, th {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+td:first-child {
+    background: palegoldenrod;
+    font-weight: bold;
+    color: black;
+}
+
+th {
+    background: palegoldenrod;
+    color: black;
+}

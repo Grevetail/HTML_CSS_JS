@@ -1,0 +1,48 @@
+img {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.red {
+    color: red;
+}
+
+.p_div {
+    width: 100px;
+    background-color: blue;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+h2 {
+    background-color: green;
+    color: white;
+}
+
+.h2-first {
+    padding: 0.15em 0.2em;
+}
+
+.h2-second {
+    padding: 2em 1.5em;
+}
+
+form {
+    display: inline-block;
+
+}
+.p-left {
+    position: relative;
+    margin-top: 0;
+    padding-left: 115px;
+}
+
+ul > li {
+    border: 1px solid black;
+    font-size: 30px;
+}
